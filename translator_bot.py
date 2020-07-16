@@ -5,7 +5,7 @@ from translate import Translator
 
 class Bot:
     def __init__(self):
-        self.bot = TeleBot('1114846090:AAH7rUf1P_LQ73gou7nOldELyOtLiJ3u9EY')
+        self.bot = TeleBot('TOKEN')
         self.eng = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
                     'u', 'v', 'w', 'x', 'y', 'z']
         self.rus = ['а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т',
